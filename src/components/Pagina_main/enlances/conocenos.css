@@ -1,0 +1,92 @@
+.conoce-container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 2rem;
+                }
+
+                .main-title {
+                    text-align: center;
+                    color: #2d3748;
+                    font-size: 2.5rem;
+                    margin-bottom: 2rem;
+                }
+
+                .hero-section {
+                    background: #f7fafc;
+                    border-radius: 1rem;
+                    padding: 3rem;
+                    margin-bottom: 3rem;
+                    text-align: center;
+                }
+
+                .hero-text h2 {
+                    color: #ff6a00;
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                }
+
+                .features-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 2rem;
+                    margin: 3rem 0;
+                }
+
+                .feature-card {
+                    background: white;
+                    padding: 2rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    text-align: center;
+                }
+
+                .feature-icon {
+                    font-size: 2.5rem;
+                    color: #ffbc8c;
+                    margin-bottom: 1rem;
+                }
+
+                .about-section {
+                    background: #fff;
+                    padding: 3rem;
+                    border-radius: 1rem;
+                    margin-top: 3rem;
+                }
+
+                .section-title {
+                    color: #2d3748;
+                    text-align: center;
+                    margin-bottom: 2rem;
+                }
+
+                .content-wrapper {
+                    display: flex;
+                    gap: 3rem;
+                    align-items: center;
+                }
+
+                .text-content {
+                    flex: 1;
+                }
+
+                .image-content {
+                    flex: 1;
+                }
+
+                .team-image {
+                    width: 100%;
+                    border-radius: 1rem;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                }
+
+                li {
+                    margin: 1rem 0;
+                    padding: 1rem;
+                    background: #ff9752;
+                    border-radius: 0.5rem;
+                }

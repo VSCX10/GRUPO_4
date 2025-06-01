@@ -1,0 +1,103 @@
+h1 {
+    text-align: left;
+    color: #d8481f;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+.productos-table {
+    width: 65%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 10px;
+    margin-left: 18%;
+    text-align: center;
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    margin-bottom: 4rem;
+}
+
+.productos-table th,
+.productos-table td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.productos-table th {
+    background-color: #fc7e62;
+    text-align: center;
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.productos-table tr:first-child th:first-child {
+    border-top-left-radius: 18px;
+}
+.productos-table tr:first-child th:last-child {
+    border-top-right-radius: 18px;
+}
+.productos-table tr:last-child td:first-child {
+    border-bottom-left-radius: 18px;
+}
+.productos-table tr:last-child td:last-child {
+    border-bottom-right-radius: 18px;
+}
+
+.text-red {
+    color: #d8481f;
+    text-align: center;
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+section {
+    margin: 20px auto;
+    padding: 20px;
+    
+    width: 30%;
+    align-self: center;
+    display: block;
+}
+.bton_agrega{
+    background-color: #fc7e62;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.search-bar-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.search-bar-section input[type="text"] {
+    flex: 1;
+    min-width: 220px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.bton_agrega {
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: none;
+    background: #fc7e62;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.bton_agrega:hover {
+    background: #b93a17;
+}

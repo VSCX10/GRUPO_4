@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Frutas y verduras", 
+        "image": "public/img/a29fedbf380aa1ad6f02e37f4209db66fd747238.png"
+    },
+    {
+        "name": "Carnes, aves y pescado", 
+        "image": "public/img/6dd24c8896e01f1a8253c57baef9c0924d72ea35.png"
+    },
+    {
+        "name": "Abarrotes", 
+        "image": "public/img/1ca7e26da2f5ec5fa4b515d39099d85ba4c8ce47.png"
+    },
+    {
+        "name": "Limpieza", 
+        "image": "public/img/1d85df7acc10e9cd327c1877b04a37359fd777c0.png"
+    }  
+]
+
+
+

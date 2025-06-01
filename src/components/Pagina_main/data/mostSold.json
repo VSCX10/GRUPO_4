@@ -1,0 +1,14 @@
+[
+    { "id": 1, "name": "Pollo Entero", "price": 9.40, "image": "public/img/857d0311b665e1b9d7ad7f26cca9de21b6ee138f.png" },
+    { "id": 2, "name": "Zanahoria", "price": 2.99, "image": "public/img/013524b583e0072a7324f9c7fa4f5aa68d786ade.png" },
+    { "id": 3, "name": "Azúcar rubia", "price": 8.99, "image": "public/img/9c9e092b9472fad2a8dad58923177f57e8bc7545.png" },
+    { "id": 4, "name": "Avena Quaker", "price": 2.80, "image": "public/img/eb94d39f23f230c669ec53cc4c8578972c1028ab.png" },
+    { "id": 5, "name": "Café Altomayo", "price": 5.00, "image": "public/img/b03a20cf9778284cb1227135894c082e707913b0.png" },
+    { "id": 6, "name": "Atun agua", "price": 5.00, "image": "public/img/758878-1200-auto.webp" },
+    { "id": 7, "name": "Fideos", "price": 5.00, "image": "public/img/727281-1200-auto.webp" },
+    { "id": 8, "name": "Ariel", "price": 5.00, "image": "public/img/657946-1200-auto.webp" },
+    { "id": 9, "name": "Shampoo", "price": 5.00, "image": "public/img/625293-1200-auto.webp" },
+    { "id": 10, "name": "Leche", "price": 5.00, "image": "public/img/681319-1200-auto.webp" },
+    { "id": 11, "name": "Desodorante", "price": 5.00, "image": "public/img/709147-1200-auto.webp" },
+    { "id": 12, "name": "Mayonesa", "price": 5.00, "image": "public/img/752033-1200-auto.webp" }
+]

@@ -1,0 +1,75 @@
+.form-control {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+
+}
+.small {
+    width: 50px;
+    height: 40px;
+    margin-right: 20px;
+
+
+}
+.small1 {
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+
+
+}
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  border-top: 4px solid #ff6f00;
+}
+
+.footer-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #ffd54f;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-section h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #ff6f00;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-section ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff6f00;
+}
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid #34495e;
+  margin-top: 1rem;
+  color: #bdc3c7;
+}

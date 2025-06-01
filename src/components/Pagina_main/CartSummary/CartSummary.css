@@ -1,0 +1,69 @@
+.CartSummary {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 28px 32px;
+    min-width: 300px;
+    max-width: 340px;
+    margin-top: 0;         
+    margin-left: 0;
+    margin-right: 90px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 24px;
+}
+
+.CartSummary h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.CartSummary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.CartSummary-green {
+    color: #1bc700;
+    font-weight: 500;
+}
+
+.CartSummary-red {
+    color: #ff3b3b;
+    font-weight: 500;
+}
+
+.CartSummary-total {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 12px;
+}
+
+.CartSummary-btn {
+    width: 100%;
+    background: linear-gradient(90deg, #ff6600 60%, #ff8800 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 0;
+    font-size: 1.08rem;
+    font-weight: 700;
+    margin-top: 18px;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px #ff660033;
+    letter-spacing: 0.5px;
+    text-align: center; 
+    align-self: center;
+}
+
+.CartSummary-btn:hover {
+    background: linear-gradient(90deg, #ff8800 60%, #ff6600 100%);
+    box-shadow: 0 4px 16px #ff660044;
+    color: #fff;
+}

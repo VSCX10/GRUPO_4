@@ -1,0 +1,144 @@
+.products-grid .bton_Agregar{
+    background-color: #ff5e3a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cantidad-menu {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+.cantidad-menu-content {
+    background: #fff;
+    padding: 24px 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.cantidad-menu-content button {
+    margin: 0 5px;
+}
+
+
+
+.mostsold-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 24px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 900px) {
+    .mostsold-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.mostsold-card {
+    background: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    padding: 24px 18px 16px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.mostsold-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: #222;
+    letter-spacing: 1px;
+}
+.mostsold-card:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 4px 18px rgba(0,0,0,0.13);
+    background: #e6f2f7;
+}
+
+.mostsold-img-container {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.mostsold-img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.mostsold-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #222;
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+
+.mostsold-price {
+    font-size: 1.1rem;
+    color: #ff9100;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.mostsold-btn {
+    background: #ff9100;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.mostsold-btn:hover {
+    background: #00a2ff;
+}
+
+.cantidad-menu {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.cantidad-menu-content {
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

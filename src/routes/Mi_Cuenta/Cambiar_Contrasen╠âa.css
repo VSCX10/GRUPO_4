@@ -1,0 +1,51 @@
+.cambiar-form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cambiar-form h2 {
+  margin-bottom: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+
+.cambiar-form .form-group {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.cambiar-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.cambiar-form .guardar-btn {
+  width: 100%;
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cambiar-form .guardar-btn:hover {
+  background: #e05500;
+}

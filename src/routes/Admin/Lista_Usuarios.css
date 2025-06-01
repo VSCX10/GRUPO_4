@@ -1,0 +1,62 @@
+.lista-usuarios-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 2rem 2.5rem;
+}
+
+.filtro-input {
+  width: 300px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #ff6600;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.usuarios-table th, .usuarios-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.estado-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.estado-link.estado-activo {
+  color: green;
+}
+
+.estado-link.estado-inactivo {
+  color: orange;
+}
+
+.estado-link:hover {
+  text-decoration: underline;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-outline:hover {
+  background: #ff6600;
+  color: #fff;
+}

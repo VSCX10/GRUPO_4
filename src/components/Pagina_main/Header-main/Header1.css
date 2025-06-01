@@ -1,0 +1,212 @@
+header .primera_barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.primera_barra a.logo {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.primera_barra a.logo:hover {
+    opacity: 0.8;
+}
+
+header .dot {
+    color: red;
+}
+
+header input[type="text"] {
+    width: 300px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header .acciones {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.usuario-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-desplegable {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.menu-desplegable a,
+.menu-desplegable .cerrar-sesion-btn {
+    background: white;
+    color: #222;
+    border: none;
+    border-radius: 0;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14.5px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, text-decoration 0.2s;
+}
+
+.menu-desplegable a:hover,
+.menu-desplegable .cerrar-sesion-btn:hover {
+    background: #ff6600;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.usuario-container:hover .menu-desplegable {
+    display: block;
+}
+
+.usuario {
+    background: #fff;
+    border: 2px solid #ff6600;
+    color: #ff6600;
+    border-radius: 20px;
+    padding: 0.4rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 8px #ff66001a;
+}
+
+.usuario:hover {
+    background: #ff6600;
+    color: #fff;
+}
+
+
+.carrito-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.carrito-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 6px 12px;
+    transition: background 0.2s;
+}
+
+.carrito-link:hover {
+    background: #eaeaea;
+}
+
+.carrito-contador {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8em;
+    margin-left: 5px;
+    min-width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+
+
+.dropdown-lista-carrito {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    min-width: 220px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 100;
+    padding: 14px 16px 10px 16px;
+    border-radius: 10px;
+    color: #222;
+    transition: opacity 0.2s;
+}
+
+.dropdown-lista-carrito ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carrito-item {
+    color: #222;
+    background: none;
+    margin-bottom: 8px;
+    padding: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.carrito-nombre {
+    font-weight: 500;
+    color: #222;
+}
+
+.carrito-precio-unitario {
+    font-size: 13px;
+    color: #444;
+    margin-top: 2px;
+}
+
+.carrito-total {
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    padding-top: 8px;
+    font-weight: bold;
+    color: #222;
+    background: none;
+    font-size: 16px;
+}
+
+
+.cantidad-menu {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+.cantidad-menu-content {
+    background: #fff;
+    padding: 24px 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.cantidad-menu-content button {
+    margin: 0 5px;
+}

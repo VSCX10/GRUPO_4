@@ -1,0 +1,125 @@
+.mi-cuenta-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 2rem 2.5rem;
+}
+
+.mi-cuenta-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.mi-cuenta-nav a,
+.mi-cuenta-nav button {
+  background: #fff;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 25px;
+  padding: 0.6rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  box-shadow: 0 2px 8px #ff66001a;
+}
+
+
+.mi-cuenta-nav a:hover,
+.mi-cuenta-nav button:hover,
+.mi-cuenta-nav .active-admin-btn {
+  background: #ff6600;
+  color: #fff;
+  border: 2px solid #ff6600;
+  text-decoration: underline;
+}
+
+
+.mi-cuenta-nav .admin-btn,
+.mi-cuenta-nav .active-admin-btn {
+  background: #fff7f0;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 25px;
+  padding: 0.6rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  box-shadow: 0 2px 8px #ff66001a;
+}
+
+.mi-cuenta-nav .admin-btn:hover,
+.mi-cuenta-nav .active-admin-btn {
+  background: #ff6600;
+  color: #fff;
+  border: 2px solid #ff6600;
+  text-decoration: underline;
+}
+
+.mi-cuenta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.admin-dashboard-resumen {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.admin-dashboard-resumen h2 {
+  color: #ff6600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.periodo-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.periodo-form label {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  background: #fff7f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #ff66001a;
+  padding: 1.5rem 2.5rem;
+  text-align: center;
+  min-width: 150px;
+}
+
+.card-label {
+  color: #ff6600;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}

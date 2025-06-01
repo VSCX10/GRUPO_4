@@ -1,0 +1,83 @@
+.game-card {
+    max-width: 225px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.game-card:hover {
+    transform: translateY(-3px);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.image-link {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+}
+
+.product-title a {
+    color: #2d3748;
+    text-decoration: none;
+}
+
+.product-category {
+    color: #718096;
+    font-size: 0.9rem;
+    margin: 0 0 12px 0;
+}
+
+.price-container {
+    margin-top: auto;
+}
+
+.current-price {
+    font-size: 1.2rem;
+    color: #ff6f00;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.add-button1 {
+    background: #ffffff;
+    color: rgb(251, 105, 0);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff6f00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.add-button1:hover {
+    background: #ff9100;
+    color: white;
+}

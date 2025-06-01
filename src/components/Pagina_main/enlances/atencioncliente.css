@@ -1,0 +1,106 @@
+.atencion-container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 2rem;
+                    display: flex;
+                }
+
+                .main-title {
+                    text-align: center;
+                    color: #2d3748;
+                    font-size: 2.5rem;
+                    margin-bottom: 3rem;
+                    display: inline;
+                }
+
+                .contact-cards {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 2rem;
+                    margin-bottom: 4rem;
+                    display: flex;
+                }
+
+                .contact-card {
+                    background: white;
+                    padding: 2rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    text-align: center;
+                    display: inline;
+                }
+
+                .contact-icon {
+                    font-size: 2rem;
+                    color: #4299e1;
+                    margin-bottom: 1rem;
+                    display: inline;
+                }
+
+                .help-section {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 3rem;
+                    margin: 4rem 0;
+                    display: inline;
+                }
+
+                .faq-item {
+                    background: #f7fafc;
+                    padding: 1.5rem;
+                    border-radius: 0.5rem;
+                    margin: 1rem 0;
+                }
+
+                .contact-form {
+                    background: white;
+                    padding: 2rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                    display: inline;
+                }
+
+                .form-group {
+                    margin-bottom: 1.5rem;
+                }
+
+                label {
+                    display: block;
+                    margin-bottom: 0.5rem;
+                    color: #4a5568;
+                }
+
+                input, textarea {
+                    width: 100%;
+                    padding: 0.8rem;
+                    border: 1px solid #e2e8f0;
+                    border-radius: 0.5rem;
+                }
+
+                button {
+                    background: #4299e1;
+                    color: white;
+                    padding: 1rem 2rem;
+                    border: none;
+                    border-radius: 0.5rem;
+                    cursor: pointer;
+                    width: 100%;
+                }
+
+                button:hover {
+                    background: #3182ce;
+                }
+
+                .section-icon {
+                    margin-right: 0.5rem;
+                    vertical-align: middle;
+                }
+
+                .location-section {
+                    margin-top: 4rem;
+                }
+
+                .map-placeholder img {
+                    width: 100%;
+                    border-radius: 0.5rem;
+                }

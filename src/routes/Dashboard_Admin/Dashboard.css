@@ -1,0 +1,158 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0001;
+  padding: 2rem 2.5rem;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  color: #ff6600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  background: #fff7f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #ff66001a;
+  padding: 1.5rem 2.5rem;
+  text-align: center;
+  min-width: 180px;
+}
+
+.card-label {
+  color: #ff6600;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.periodo-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.periodo-form label {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.main-section {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.usuarios-registrados {
+  flex: 2;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.btn-red {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-red:hover {
+  background: #e05500;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th, .table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.estado-activo {
+  color: #2ecc40;
+  font-weight: bold;
+}
+
+.estado-inactivo {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-outline:hover {
+  background: #ff6600;
+  color: #fff;
+}
+
+.detalle-usuario {
+  flex: 1.2;
+  background: #fff7f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ff66001a;
+  padding: 1.5rem;
+}
+
+.detalle-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff6600;
+}
+
+.text-red {
+  color: #ff6600;
+  font-weight: bold;
+}

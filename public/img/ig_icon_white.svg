@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="34.570713mm"
+   height="34.570713mm"
+   viewBox="0 0 34.570713 34.570713"
+   version="1.1"
+   id="svg881"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="ig_icon (copy).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview883"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.4187009"
+     inkscape:cx="-154.04791"
+     inkscape:cy="-1.1941699"
+     inkscape:window-width="1328"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs878" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-169.12954,-148.27634)">
+    <g
+       id="g20"
+       transform="matrix(0.17638888,0,0,-0.17638888,177.96287,165.5617)"
+       style="fill:#ffffff;fill-opacity:1.0">
+      <path
+         d="M 0,0 C 0,26.464 21.453,47.917 47.917,47.917 74.38,47.917 95.833,26.464 95.833,0 95.831,-26.464 74.377,-47.915 47.913,-47.913 21.452,-47.911 0.002,-26.461 0,0 M 47.917,35.417 C 28.357,35.417 12.5,19.56 12.5,0 c 0,-19.56 15.857,-35.417 35.417,-35.417 19.56,0 35.416,15.857 35.416,35.417 0,19.56 -15.856,35.417 -35.416,35.417 m 62.5,12.5 c 0.004,-5.753 -4.656,-10.42 -10.409,-10.425 -5.753,-0.004 -10.42,4.656 -10.425,10.409 v 0.016 c 0.005,5.753 4.672,10.413 10.425,10.409 5.747,-0.005 10.404,-4.662 10.409,-10.409 M -33.333,37.5 c 0,24.167 19.583,43.75 43.75,43.75 h 75 c 24.166,0 43.75,-19.583 43.75,-43.75 v -75 c 0,-24.167 -19.584,-43.75 -43.75,-43.75 h -75 c -24.163,0 -43.75,19.588 -43.75,43.75 z m 43.75,56.25 c -31.066,0 -56.25,-25.184 -56.25,-56.25 v -75 c 0,-31.066 25.184,-56.25 56.25,-56.25 h 75 c 31.066,0 56.25,25.184 56.25,56.25 v 75 c 0,31.066 -25.184,56.25 -56.25,56.25 z"
+         style="fill:#ffffff;fill-opacity:1.0;fill-rule:evenodd;stroke:none"
+         id="path22" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+.similar-products {
+    margin-top: 3rem;
+    padding: 0 0 2rem 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.similar-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.similar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 1rem;
+}
+
+@media (min-width: 900px) {
+    .similar-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.similar-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 32px 28px 18px 28px;
+    min-width: 180px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: pointer;
+}
+
+.similar-card:hover {
+    box-shadow: 0 6px 24px #ff660033;
+    transform: translateY(-6px) scale(1.04);
+}
+
+.similar-img-container img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.similar-info {
+    width: 100%;
+    text-align: center;
+}
+
+.similar-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 2px;
+}
+
+.similar-category {
+    font-size: 0.95rem;
+    color: #b0b0b0;
+    margin-bottom: 8px;
+}
+
+.similar-price {
+    font-size: 1rem;
+    color: #ff5e3a;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.similar-btn {
+    background: #fff;
+    color: #ff5e3a;
+    border: 1.5px solid #ff5e3a;
+    border-radius: 8px;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.similar-btn:hover {
+    background: #ff5e3a;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .sectionGame {
+        flex-direction: row; 
+    }
+    
+    .image-container {
+        flex: 0 0 40%;
+        max-width: 400px;
+    }
+    
+    .price-container {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+}
